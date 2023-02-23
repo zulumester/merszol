@@ -2,18 +2,16 @@
 
 class Szolgaltatas
 {
-    public $azonosito;
+    public $id;
     public $nev;
-    public $tipus;
-    public $ar;
+    
 
-    public function __construct($azonosito, $nev, $tipus, $ar)
+    public function __construct($id, $nev)
 
     {
-        $this->azonosito = $azonosito;
+        $this->id = $id;
         $this->nev = $nev;
-        $this->tipus = $tipus;
-        $this->ar = $ar;
+
     }
 
 }
